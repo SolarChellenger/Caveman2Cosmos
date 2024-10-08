@@ -522,32 +522,6 @@
 			</ExtraFreeBonuses>
 		</BuildingInfo>
 		<BuildingInfo>
-			<Type>BUILDING_RESOURCES_FLINT</Type>
-			<Description>TXT_KEY_BUILDING_RESOURCES_FLINT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_RESOURCE_PROVIDER_PEDIA</Civilopedia>
-			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_RESOURCES_FLINT</ArtDefineTag>
-			<MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
-			</MapCategoryTypes>
-			<ObsoleteTech>TECH_RAPID_PROTOTYPING</ObsoleteTech>
-			<ReplacementBuildings>
-				<BuildingType>BUILDING_MODERN_EARTHWORKS</BuildingType>
-			</ReplacementBuildings>
-			<ObsoletesToBuilding>BUILDING_MODERN_EARTHWORKS</ObsoletesToBuilding>
-			<PrereqOrBuildings>
-				<BuildingType>BUILDING_FLINT_GATHERER</BuildingType>
-				<BuildingType>BUILDING_WONDER_OF_NATURE_PAMUKKALE</BuildingType>
-			</PrereqOrBuildings>
-			<bAutoBuild>1</bAutoBuild>
-			<ExtraFreeBonuses>
-				<ExtraFreeBonus>
-					<FreeBonus>BONUS_FLINT</FreeBonus>
-					<iNumFreeBonuses>1</iNumFreeBonuses>
-				</ExtraFreeBonus>
-			</ExtraFreeBonuses>
-		</BuildingInfo>
-		<BuildingInfo>
 			<Type>BUILDING_RESOURCES_FLOWERS</Type>
 			<Description>TXT_KEY_BUILDING_RESOURCES_FLOWERS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RESOURCE_PROVIDER_PEDIA</Civilopedia>
@@ -1656,9 +1630,6 @@
 			<ObsoletesToBuilding>BUILDING_AGROFOREST</ObsoletesToBuilding>
 			<PrereqOrBuildings>
 				<BuildingType>BUILDING_GROVE_BRAZILWOOD</BuildingType>
-				<BuildingType>BUILDING_DRIFTWOOD_GATHERER</BuildingType>
-				<BuildingType>BUILDING_LUMBER_GATHERER</BuildingType>
-				<BuildingType>BUILDING_LUMBER_CAMP</BuildingType>
 				<BuildingType>BUILDING_GROVE_TIMBER</BuildingType>
 			</PrereqOrBuildings>
 			<bAutoBuild>1</bAutoBuild>
